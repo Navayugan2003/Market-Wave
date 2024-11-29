@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile page</title>
+</head>
+<body class="d-flex align-items-center justify-content-center">
+    <div class="profile-container pt-4 ps-5 pe-4">
+        <p class="fs-5">Hello,<br><b>Navayugan G</b></p>
+        <button class="btn btn-primary editButton" (click)="goToEdit()">Edit</button>
+        <button class="btn btn-primary homeButton" (click)="goToHome()">Home</button>
+        <br>
+        <h4>Personal Information:</h4>
+        <div class="pt-3 ps-5 personalInfo mb-3">
+            <p>First Name:</p>
+            <p class="ms-3 firstName">Navayugan</p><br>
+            <p>Last Name:</p>
+            <p class="ms-3 lastName">G</p><br>
+            <p>Address:</p>
+            <p class="address">North street, Pothanur, Namakkal District</p><br>
+            <p>Pincode:</p>
+            <p class="pincode">638181</p>
+        </div>
+        <h4>Email Address:</h4>
+        <div class="pt-3 ps-5 personalInfo mb-3">
+            <p>Mail Id:</p>
+            <p class="ms-3 email">navayugan02&#64;gmail.com</p><br>
+        </div>
+        <h4>Mobile Number:</h4>
+        <div class="pt-3 ps-5 personalInfo mb-3">
+            <p>Phone Number:</p>
+            <p class="ms-3 email">+91 8903711298</p><br>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+.fluid-container{
+    height: 100vh;
+    background-image: url('/assets/shopping-bag-cart.jpg');
+    background-size: cover;
+}
+button:nth-of-type(1){
+    margin-left: 90px;
+    width: 150px;
+}
+button:nth-of-type(2){
+    all: unset;
+    cursor: pointer;
+}
+button:nth-of-type(2):active{
+    color: rgb(10, 100, 245);
+}
+span{
+    margin-left: 70px;
+}
+form{
+    margin-top: -50px;
+    margin-left: 250px;
+    padding: 30px 40px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+}
+input{
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+}
+input::placeholder{
+    color: rgb(255, 255, 255);
+}

@@ -35,8 +35,10 @@
             "assets": [
               {
                 "glob": "**/*",
-                "input": "public"
-              }
+                "input": "public",
+                "output": "./"
+              },
+              "src/assets"
             ],
             "styles": [
               "src/styles.scss"
@@ -105,5 +107,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "f3573e1f-fab7-4cc5-9c16-6ef8e51078c1"
   }
 }

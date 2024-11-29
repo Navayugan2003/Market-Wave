@@ -1,0 +1,19 @@
+
+    <div class="fluid-container d-flex align-items-center">
+        
+        <form>
+            <h2 class="mb-5 text-center">Login</h2>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" placeholder="Enter Mail Id" class="ms-3 mb-4"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password:</label></td>
+                    <td><input type="text" id="password" placeholder="Password" class="ms-3 mb-4"></td>
+                </tr>
+                <Button class="btn btn-primary mb-4" (click)="goToHome()">Login</Button>
+                <br>
+                <span>Don't have an Account ?</span>
+                <button class="btn login ms-2 fw-bold" (click)="goToSignup()">Signup</button>
+        </form>
+    </div>

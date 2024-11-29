@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile page</title>
+</head>
+<body class="d-flex align-items-center justify-content-center">
+    <div class="profile-container pt-4 ps-5 pe-4">
+        <p class="fs-5">Hello,<br><b>Navayugan G</b></p>
+        <button class="btn btn-primary" (click)="goToView()">Save</button>
+        <br>
+        <h4>Personal Information:</h4>
+        <div class="pt-3 ps-5 personalInfo mb-3">
+            <p>First Name:</p>
+            <input type="text" class="ms-3 firstName" placeholder="Enter First Name"><br>
+            <p>Last Name:</p>
+            <input type="text" class="ms-3 lastName" placeholder="Enter Last Name"><br>
+            <p>Address:</p>
+            <input type="textarea" class="address" placeholder="Enter Address"><br>
+            <p>Pincode:</p>
+            <input type="text" class="address" placeholder="Enter Pincode">
+        </div>
+        <h4>Email Address:</h4>
+        <div class="pt-3 ps-5 personalInfo mb-3">
+            <p>Mail Id:</p>
+            <input type="email" class="address" placeholder="Enter Email"><br>
+        </div>
+        <h4>Mobile Number:</h4>
+        <div class="pt-3 ps-5 personalInfo mb-3">
+            <p>Phone Number:</p>
+            <input type="text" class="ms-3" placeholder="Enter Number"><br>
+        </div>
+    </div>
+</body>
+</html>

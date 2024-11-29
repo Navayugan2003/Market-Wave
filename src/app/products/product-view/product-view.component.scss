@@ -1,0 +1,41 @@
+.container{
+    background-color: rgb(238, 237, 235);
+    box-shadow: 0px 0px 5px rgb(120, 117, 117);
+}
+.productImgSection{
+    height: 67%;
+    width: 40%;
+    position: sticky;
+    top: 150px;
+}
+.productImage{
+    height: 45vh;
+    width: 75%;
+    border-radius: 2px;
+}
+.productImgSection>button{
+    background-color: rgb(255, 102, 0);
+    color: white;
+    border: none;
+    height: 50px;
+    width: 37%;
+    border-radius: 2px;
+}
+.productImgSection>button:active{
+    background-color: rgb(147, 145, 133);
+}
+.productDetails{
+    width: 60%;
+    margin-top: 145px;
+}
+.productSpecification{
+    border: 1px solid rgb(209, 208, 203);
+    border-radius: 2px;
+}
+table{
+    width: 100%;
+}
+.title{
+    width: 25%;
+    color: rgb(147, 145, 133);
+}

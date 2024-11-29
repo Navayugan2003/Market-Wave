@@ -1,0 +1,39 @@
+body{
+    height: 100vh;
+    background-color: rgb(238, 237, 235);
+ }
+ .navbar{
+    height: 70px;
+    justify-content: space-evenly;
+    background-color: rgb(47, 54, 69);
+    box-shadow: 2px 0px 9px black;
+ }
+ .logoImage{
+    height: 30px;
+ }
+ .profileImage{
+    height: 37px;
+ }
+ .cartImage{
+    height: 40px;
+ }
+ .logoutImage{
+    height: 30px;
+ }
+ .searchBar{
+    width: 30%;
+ }
+ .searchButton{
+    background-color: rgb(230, 185, 166);
+    color: rgb(0, 0, 0);
+ }
+ .navbar>button{
+    all: unset;
+    color: white;
+    cursor: pointer;
+ }
+ .navbar>button:active{
+    color: rgb(47, 54, 69);
+ }
+
+ 

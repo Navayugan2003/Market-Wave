@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup page</title>
+</head>
+
+<body>
+    <div class="fluid-container d-flex align-items-center">
+        <form>
+            <h2 class="mb-5 text-center">Sign-up</h2>
+                <tr>
+                    <td><label for="userName">Username:</label></td>
+                    <td><input type="text" id="userName" placeholder="Enter Username" class="ms-3 mb-3"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" placeholder="Enter Mail Id" class="ms-3 mb-3"></td>
+                </tr>
+                <tr>
+                    <td><label for="Number">Number:</label></td>
+                    <td><input type="text" id="Number" placeholder="Enter Number" class="ms-3 mb-3"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password:</label></td>
+                    <td><input type="text" id="password" placeholder="Password" class="ms-3 mb-3"></td>
+                </tr>
+                <tr>
+                    <td><label for="confirmPassword">Confirm Password:</label></td>
+                    <td><input type="text" id="confirmPassword" placeholder="Confirm Password" class="ms-3 mb-4"></td>
+                </tr>
+                <Button class="btn btn-primary mb-3" (click)="goToHome()">Sign Up</Button>
+                <br>
+                <span>Have an Account ?</span>
+                <button class="btn login ms-2 fw-bold" (click)="goToLogin()">Login</button>
+        </form>
+    </div>
+</body>
+</html>
